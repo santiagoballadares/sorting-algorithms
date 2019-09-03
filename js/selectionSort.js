@@ -1,4 +1,7 @@
 class Selection {
+  /**
+   * Sorts array in ascending order
+   */
   static sort(a) {
     const n = a.length;
     
