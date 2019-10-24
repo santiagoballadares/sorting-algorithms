@@ -1,0 +1,19 @@
+{
+  "name": "sorting-algorithms",
+  "version": "1.0.0",
+  "description": "Common sorting algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagoballadares/sorting-algorithms.git"
+  },
+  "author": "SB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagoballadares/sorting-algorithms/issues"
+  },
+  "homepage": "https://github.com/santiagoballadares/sorting-algorithms#readme"
+}
