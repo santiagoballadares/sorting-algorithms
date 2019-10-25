@@ -2,6 +2,16 @@ const less = (v, w) => {
   return v < w;
 };
 
+const compare = (v, w) => {
+  if (v < w) {
+    return -1;
+  }
+  if (v > w) {
+    return 1;
+  }
+  return 0;
+};
+
 const swap = (arr, i, j) => {
   const temp = arr[i];
   arr[i] = arr[j];
@@ -25,6 +35,7 @@ const shuffleArr = arr => {
 
 module.exports = {
   less,
+  compare,
   swap,
   toInt,
   shuffleArr,

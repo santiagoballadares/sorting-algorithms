@@ -5,6 +5,7 @@ const Merge = require('./merge');
 const MergeBU = require('./mergeBU');
 const Quick = require('./quick');
 const QuickImp = require('./quickImp');
+const Quick3Way = require('./quick3Way');
 
 module.exports = {
   Selection,
@@ -14,4 +15,5 @@ module.exports = {
   MergeBU,
   Quick,
   QuickImp,
+  Quick3Way,
 };
